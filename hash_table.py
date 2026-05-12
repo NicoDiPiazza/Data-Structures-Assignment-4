@@ -117,6 +117,8 @@ class HashTable:
             prev.next = current.next
             # this works if current is tail or middle
             # ASSUMING prev is actually the prev node and not a copy
+        self.total -= 1
+        return True
 
 
 
